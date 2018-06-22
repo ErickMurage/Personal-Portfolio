@@ -46,17 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /*The code abobe is Erick Meyer's reset. My code starts below*/
-/*
-font-family: 'Exo', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-background-color: #5210AE
-
-yellow: #FFD42D
-*/
-
 html, body{
 	font-family: 'Roboto', sans-serif;
 	height: 100%;
@@ -200,6 +190,12 @@ html, body{
 	font-size: 25px;
 	color: #505050;
 }
+
+.tools:hover{
+	position: relative;
+	top: -3px;
+	cursor: pointer;
+}
 /*Projects*/
 #projects{
 	display: flex;
@@ -286,9 +282,12 @@ html, body{
 #contact p{
 	font-size: 35px;
 	line-height: 30px;
-	color: #5210AE;
 	font-weight: bold;
 	margin-bottom: 30px;
+}
+
+#contact p a{
+	color: #5210AE;
 }
 
 .social{
@@ -311,6 +310,11 @@ html, body{
 	border-radius: 5px;
 	margin-right: 20px;
 	font-size: 20px;
+}
+
+.social-link a:hover{
+	position: relative;
+	top: -3px;
 }
 /*footer*/
 footer{
