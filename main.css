@@ -251,6 +251,10 @@ html, body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	position: relative;
+}
+.project-tile:hover{
+	top: -3px;
 }
 .project-tile img{
 	border-radius: 7px;
