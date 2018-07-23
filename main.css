@@ -339,11 +339,9 @@ footer a{
 	#welcome-section p{
 		font-size: 20px;
 	}
-
 	#projects{
 		height: auto;
 	}
-
 	#projects h2{
 		font-size: 30px;
 	}
@@ -353,46 +351,37 @@ footer a{
 		display: block;
 		margin-top: 10px;
 	}
-	
 	.main-nav{
 		display: none;
 	}
-
 	#navbar{
 		display: flex;
 		flex-direction: column;
 		padding-top: 30px;
 	}
-
 	#welcome-section p{
 		font-size: 18px;
 		text-align: center;
 	}
-
 	#tool-box h2{
 		font-size: 25px;
 	}
-
 	#projects h2{
 		font-size: 25px;
 		text-align: center;
 	}
-	
 	#contact h2{
 		font-size: 25px;
 	}
-
 	#contact p{
 		font-size: 25px;
 	}
-
 	.anchor{
 		display: block;
 		height: 50px;
 		margin-top: -50px;
 		visibility: hidden;
 	}
-
 	#projects-anchor{
 		height: 80px;
 		margin-top: -80px;
