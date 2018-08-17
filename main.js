@@ -13,12 +13,10 @@ $(document).ready(function() {
         }
     });
 });
-//Smooth scrolling ends.
-
+//Drop-down menu.
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
-
 window.onclick = function (event) {
     if (!event.target.matches('.drop-btn')) {
         let dropdowns = document.getElementById("myDropdown");
