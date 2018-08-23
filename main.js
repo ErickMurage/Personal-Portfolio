@@ -14,10 +14,11 @@ $(document).ready(function() {
     });
 });
 //Drop-down menu.
+//Toggle menu by clicking button - working!
 function myFunction() {
     document.getElementById('myDropdown').classList.toggle('show');
 }
-
+//Collapse menu after clicking outside the menu area - not working!
 window.onclick = function(event) {
     if (!event.target.matches('.drop-btn')) {
         const dropdowns = document.getElementsByClassName(dropdown-content);
